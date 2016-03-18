@@ -206,3 +206,5 @@ hi! link diffLine DiffText
 hi! link diffSubName DiffChange
 " css
 call s:HL('cssImportant', s:none, s:none, s:bold . s:italic . s:underline)
+" mutt
+hi! link muttrcMacroDescr Comment
